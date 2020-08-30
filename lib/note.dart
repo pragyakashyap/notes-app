@@ -269,4 +269,3 @@ class _NoteButton extends StatelessWidget {
     );
   }
 }
-
