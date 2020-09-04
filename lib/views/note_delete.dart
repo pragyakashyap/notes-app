@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 //import 'package:giffy_dialog/giffy_dialog.dart';
+//import 'package:notes_app/note_list.dart';
 
 class DeleteNote extends StatelessWidget {
   @override
@@ -18,7 +19,7 @@ class DeleteNote extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.center,
               children : <Widget>[
-                Icon(Icons.delete),
+                Icon(Icons.delete,color: Colors.red,),
                 Expanded(
                   child: Text(
                     'Do you want to delete ?',

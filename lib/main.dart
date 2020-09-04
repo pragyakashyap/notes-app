@@ -17,11 +17,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title:"Notes",
-      home:Scaffold(
-        backgroundColor: Colors.black,
-        body: NoteList(),
-      )
+      home:
+      NoteList(),
+      );
       
-    );
+    
   }
 }
